@@ -10,9 +10,9 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int = j;
+	int = i,j;
 
-	j = 0;
+	j = i;
 	while (j < n && src[j] != '\0')
 	{
 		dest[j] = src[j];

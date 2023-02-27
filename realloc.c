@@ -25,7 +25,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @pp: string of strings
  */
 
-void ffree(character **pp)
+void ffree(char **pp)
 {
 	char **a = pp;
 
