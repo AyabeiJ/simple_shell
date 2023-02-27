@@ -14,7 +14,7 @@ void _eputs(char *str)
 		return;
 	while (str[i] != '\0')
 	{
-		_eputchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
 }
@@ -26,7 +26,7 @@ void _eputs(char *str)
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _eputchar(char c)
+int _putchar(char c)
 {
 	static int i;
 	static char buf[WRITE_BUF_SIZE];
